@@ -9,6 +9,13 @@ public class kecepatanberaksi {
         kec1.cetakInfo();
         System.out.println("kecepatan = "+kec1.hitungkecepatan());
         kec1.cetakkecepatan();
+        
+        
+        kecepatan kec2 = new kecepatan ();
+        kec2.cetakInfo();
+        
+        kecepatan kec3 = new kecepatan (20,5);
+        kec3.cetakInfo();
     }
     
 }

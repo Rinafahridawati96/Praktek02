@@ -8,6 +8,11 @@ public class kecepatan {
     jarak=100;
     waktu=50;
     }
+
+    public kecepatan(double waktu, double jarak) {
+        this.waktu = waktu;
+        this.jarak = jarak;
+    }
     
     
     
