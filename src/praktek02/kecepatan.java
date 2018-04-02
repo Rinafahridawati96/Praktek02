@@ -1,13 +1,13 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package praktek02;
 
-/**
- *
- * @author rina
- */
 public class kecepatan {
+    double waktu;
+    double jarak;
     
+    void cetakInfo (){
+    System.out.println("===================");
+    System.out.println("Waktu : "+waktu);
+    System.out.println("Jarak : "+jarak);
+    System.out.println("===================");
+    }
 }
