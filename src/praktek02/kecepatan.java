@@ -3,6 +3,13 @@ package praktek02;
 public class kecepatan {
     double waktu;
     double jarak;
+
+    public kecepatan() {
+    jarak=100;
+    waktu=50;
+    }
+    
+    
     
     void cetakInfo (){
     System.out.println("===================");
@@ -19,6 +26,6 @@ public class kecepatan {
     }
     
     void cetakkecepatan(){
-    System.out.println("kecepatannya adalah"+hitungkecepatan());
+    System.out.println("kecepatannya adalah = "+hitungkecepatan());
     }
 }
