@@ -17,4 +17,8 @@ public class kecepatan {
     return kecepatan;
     
     }
+    
+    void cetakkecepatan(){
+    System.out.println("kecepatannya adalah"+hitungkecepatan());
+    }
 }

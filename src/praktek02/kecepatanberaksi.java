@@ -8,6 +8,7 @@ public class kecepatanberaksi {
         
         kec1.cetakInfo();
         System.out.println("kecepatan = "+kec1.hitungkecepatan());
+        kec1.cetakkecepatan();
     }
     
 }
