@@ -5,6 +5,8 @@ public class kecepatanberaksi {
         kec1.jarak = 10;
         kec1.waktu = 20;
         
+        
+        kec1.cetakInfo();
     }
     
 }
