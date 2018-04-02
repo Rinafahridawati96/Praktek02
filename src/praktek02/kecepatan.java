@@ -6,8 +6,15 @@ public class kecepatan {
     
     void cetakInfo (){
     System.out.println("===================");
-    System.out.println("Waktu : "+waktu);
-    System.out.println("Jarak : "+jarak);
+    System.out.println("Waktu : "+jarak);
+    System.out.println("Jarak : "+waktu);
     System.out.println("===================");
+    }
+    
+    double hitungkecepatan(){
+    double kecepatan;
+    kecepatan=jarak/waktu;
+    return kecepatan;
+    
     }
 }
